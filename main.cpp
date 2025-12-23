@@ -96,7 +96,7 @@ int main() {
     cout << "Шанс заполнения % (рек. 45): "; cin >> cb;
 
     float cellSize = 10.0f;
-    sf::RenderWindow window(sf::VideoMode(w * cellSize, h * cellSize), "Cave Generation (Variant 7)");
+    sf::RenderWindow window(sf::VideoMode(w * cellSize, h * cellSize), "Пещерки");
 
     CaveGenerator cave(w, h, bl, dl, cb);
 
